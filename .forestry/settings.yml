@@ -9,14 +9,16 @@ sections:
 - type: jekyll-posts
   label: Blog
   create: all
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - default
   - post
 - type: jekyll-pages
   label: Pages
   create: all
+  new_doc_ext: ".md"
   templates:
+  - project
   - landing-page
   - page
 - type: directory
