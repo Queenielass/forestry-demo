@@ -9,7 +9,7 @@ sections:
 - type: jekyll-posts
   label: Blog
   create: all
-  new_doc_ext: md
+  new_doc_ext: ".md"
   templates:
   - post
   - default
@@ -23,10 +23,12 @@ sections:
   - page
 - type: directory
   path: _people
-  label: People
+  label: Team
   create: all
   match: "*"
+  new_doc_ext: ".md"
   templates:
+  - person
   - person
 - type: directory
   path: _projects
@@ -37,7 +39,7 @@ sections:
   - project
 - type: document
   path: _data/information.yml
-  label: Contact Information
+  label: Contact Us
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
