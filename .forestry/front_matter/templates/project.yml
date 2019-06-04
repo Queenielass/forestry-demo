@@ -15,7 +15,7 @@ fields:
   type: file
   description: Dimensions work best at 1200 pixels by 400 pixels
   hidden: false
-  default: ''
+  default: "/2019/06/04/IMG_2067.jpg"
 - name: tags
   label: Tags
   type: tag_list
