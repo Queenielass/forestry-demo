@@ -11,12 +11,12 @@ sections:
   create: all
   new_doc_ext: md
   templates:
-  - default
   - post
+  - default
 - type: jekyll-pages
   label: Pages
   create: all
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - project
   - landing-page
