@@ -1,0 +1,8 @@
+---
+footer:
+- url: https://toastmastersinternational.com
+  weight: 5
+  title: TMI
+- identifier: _about
+  weight: 3
+  title: About

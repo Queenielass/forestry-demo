@@ -9,7 +9,7 @@ sections:
 - type: jekyll-posts
   label: Blog
   create: all
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - post
   - default
@@ -26,7 +26,7 @@ sections:
   label: Team
   create: all
   match: "*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - person
   - person
