@@ -7,9 +7,11 @@ sections:
 - type: heading
   label: Content
 - type: jekyll-posts
-  label: Posts
+  label: Blog
   create: all
+  new_doc_ext: ".md"
   templates:
+  - default
   - post
 - type: jekyll-pages
   label: Pages
