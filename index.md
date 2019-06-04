@@ -1,9 +1,10 @@
 ---
 title: Home
-banner_image: "/img/banner.png"
+banner_image: "/2019/06/04/P1010525.JPG"
 layout: landing-page
 heading: Belkirk College
 partners:
+- "/2019/06/04/McQueen-web-design-email.png"
 - "/uploads/2017/11/13/stem.png"
 - "/uploads/2017/11/13/UPenn_logo.png"
 - "/uploads/2017/11/13/nysed.png"
@@ -25,6 +26,7 @@ hero_button:
   text: Learn more
   href: "/about"
 show_news: true
+show_staff: true
 menu:
   navigation:
     identifier: _index
